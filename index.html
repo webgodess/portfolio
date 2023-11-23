@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sarita N. Robert's portfolio website showcasing frontend development projects."
+    />
+    <meta name="author" content="Sarita N. Robert" />
+    <meta
+      name="keywords"
+      content="frontend developer, web development, portfolio"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./src/assets/site.webmanifest" />
+
+    <title>SN portfolio</title>
+
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+
+  <body>
+    <!-- Home -->
+    <div>
+      <!-- Desktop navbar -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#home"
+              ><i class="fas fa-home xx-large"></i>
+              <p>HOME</p>
+            </a>
+          </li>
+          <li>
+            <a href="#about"
+              ><i class="fas fa-user xx-large"></i>
+              <p>ABOUT</p></a
+            >
+          </li>
+          <li>
+            <a href="#projects"
+              ><i class="fas fa-laptop-code xx-large"></i>
+              <p>PROJECTS</p></a
+            >
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="fas fa-envelope xx-large"></i>
+              <p>CONTACT</p></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Mobile navbar -->
+      <div id="mobile-nav">
+        <a href="#" id="burger-menu-button">
+          <div class="burger-menu">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
+        </a>
+        <!-- To be displayed only when the hamburger button is clicked on -->
+        <ul class="hidden" id="mobile-ul">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <header id="home"></header>
+    <div class="heroText">
+      <h1>Sarita N. Robert</h1>
+      <p>Front-end developer</p>
+      <button id="contactMe">Contact me</button>
+    </div>
+    <main>
+      <section id="about">
+        <h2>ABOUT</h2>
+        <p>
+          I am a dedicated and passionate Frontend Developer equipped with
+          robust communication skills, prominently showcased through the growth
+          of my YouTube channel. I have honed the ability to work seamlessly
+          within a team through my previous work experiences and active
+          participation in United Nations programs in Africa.
+        </p>
+
+        <p>
+          My commitment to user experience goes beyond the immediate interface.
+          I am passionate about creating evergreen content that stands the test
+          of time, ensuring relevance and engagement throughout the years. I am
+          eager to bring my technical knowledge, communication finesse, and
+          passion for user-centric development to a forward-thinking business.
+        </p>
+
+        <p>
+          Outside of code I enjoy self-improvement, new thought books (Neville
+          Goddard,Elizabeth Towne, Bruce Lipton to name a few ! ),volunteering,
+          swimming, hiking and content creation.
+        </p>
+
+        <h3>My skills</h3>
+        <div class="skillsContainer">
+          <i class="fab fa-html5 tooltip" title="HTML5"></i>
+          <i class="fab fa-js-square tooltip" title="JavaScript"></i>
+          <i class="fab fa-css3-alt tooltip" title="CSS3"></i>
+          <i class="fab fa-sass tooltip" title="Sass"></i>
+          <i class="fab fa-react tooltip" title="React.js"></i>
+          <i class="fab fa-git-alt tooltip" title="Git"></i>
+          <i class="fab fa-github tooltip" title="GitHub"></i>
+          <i class="fab fa-wordpress tooltip" title="Wordpress"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <img
+            class="jasmine tooltip"
+            title="Jasmine JS"
+            src="./src/assets/jasmine.svg"
+            alt="Jasmine JS"
+          />
+          <img
+            class="jquery tooltip"
+            title="jQuery"
+            src="./src/assets/jq.png"
+            alt="jQuery"
+          />
+          <img
+            class="mysql tooltip"
+            title="MySQL"
+            src="./src/assets/pngwing.com.png"
+            alt="MySQL"
+          />
+          <img
+            class="axios tooltip"
+            title="Axios"
+            src="./src/assets/32372333.png"
+            alt="Axios"
+          />
+        </div>
+      </section>
+      <hr />
+      <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="card-container">
+          <!-- Project Card 1 -->
+          <div class="card">
+            <img
+              src="./src/assets/weather_app.png"
+              alt="weather app"
+              class="card-img"
+            />
+            <div class="overlay">
+              <h3>Weather App</h3>
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://webgodess.github.io/weather-app/"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/weather-app"
+                  target="_blank"
+                  >Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div class="card">
+            <img
+              src="./src/assets/pomodoroTimer.png"
+              alt="pomodoro timer"
+              class="card-img"
+            />
+            <div class="overlay">
+              <h3>Pomodoro Timer</h3>
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://webgodess.github.io/pomodoro_timer/"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/pomodoro_timer"
+                  target="_blank"
+                  >Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="card">
+            <img
+              src="./src/assets/lightBright.png"
+              alt="light bright app"
+              class="card-img"
+            />
+            <div class="overlay">
+              <h3>Light Bright app</h3>
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://webgodess.github.io/light_bright/"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/light_bright"
+                  target="_blank"
+                  >Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="card">
+            <img
+              src="./src/assets/drum.png"
+              alt="drum beat simulator"
+              class="card-img"
+            />
+            <div class="overlay">
+              <h3>Drum Beat Simulator</h3>
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://webgodess.github.io/drum_beats/"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/drum_beats"
+                  target="_blank"
+                  >Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 5 -->
+          <div class="card">
+            <img
+              src="./src/assets/quote.png"
+              alt="Project 5"
+              class="card-img"
+            />
+            <div class="overlay">
+              <h3>Neville Goddard Quote generator</h3>
+
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://webgodess.github.io/NG_quoteGenerator/"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/NG_quoteGenerator"
+                  target="_blank"
+                  >Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Project Card 1 -->
+          <div class="card">
+            <img
+              src="./src/assets/markdown-previewer.png"
+              alt="weather app"
+              class="card-img"
+            />
+            <div class="overlay">
+              <h3>Markdown Previewer</h3>
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://webgodess.github.io/Markdown_Preview/"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/Markdown_Preview"
+                  target="_blank"
+                  >Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="contact">
+        <form
+          id="portfolio-frm"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/xvojndbe"
+          method="POST"
+          name="contact form"
+        >
+          <fieldset>
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="First and Last"
+            />
+
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="email@domain.com"
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="textarea"
+              rows="10"
+              cols="30"
+              placeholder="Your message..."
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            />
+          </fieldset>
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6b1deacb2c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
