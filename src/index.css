@@ -8,11 +8,11 @@ body {
   background-color: #0b1214;
   width: 100vw;
   color: #e9e8e6;
+  overflow-x: hidden;
 }
 
 h1,
 h2,
-ul,
 #contactMe,
 #submit,
 label {
@@ -24,7 +24,7 @@ header {
   height: 100%;
   overflow: hidden;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent),
-    url("./assets/DSC_0743try.png");
+    url("./assets/DSC_0743try.webp");
   /* Position and center the image to scale nicely on all screens */
   background-position: right;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ li a {
   padding: 12px 24px;
   text-decoration: none;
   text-align: center;
-  height: 25%;
+  height: 20%;
   color: #ad9066;
   display: flex;
   flex-direction: column;
@@ -122,6 +122,10 @@ i::before {
 #about h2,
 #projects h2 {
   text-decoration: underline;
+}
+
+#about p {
+  font-size: 1.2em;
 }
 
 .skillsContainer {
