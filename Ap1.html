@@ -1,13 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="description" content="Page de l'AP1" />
+    <meta
+      name="description"
+      content="Présentation du projet AP1 Mediatekformation"
+    />
     <meta name="author" content="Sarita Nasimiyu" />
     <meta
       name="keywords"
-      content="CNED, web development, portfolio, AP1, HTML, CSS"
+      content="CNED, BTS SIO, SLAM, AP1, Mediatekformation, Symfony, MySQL, portfolio"
     />
     <link
       rel="apple-touch-icon"
@@ -27,7 +30,8 @@
       href="./src/assets/favicon-16x16.png"
     />
     <link rel="manifest" href="./src/assets/site.webmanifest" />
-    <title>Page de l'AP1</title>
+
+    <title>AP1 – Mediatekformation</title>
 
     <link rel="stylesheet" href="./src/index.css" />
   </head>
@@ -90,36 +94,138 @@
       </div>
     </div>
 
-    <main style="margin-left: 120px; padding: 2rem">
+    <main style="margin-left: 120px; padding: 2rem; max-width: 1000px">
       <h1>AP1 – Mediatekformation</h1>
 
       <section>
-        <h2>Documentation de l'AP1</h2>
+        <h2>Présentation du projet</h2>
         <p>
-          Vous pouvez télécharger la fiche descriptive et consulter la vidéo de
-          présentation du projet ci-dessous.
+          Ce projet a été réalisé dans le cadre de l’épreuve AP1 du BTS SIO,
+          option SLAM. Il consiste à faire évoluer une application web existante
+          nommée <strong>Mediatekformation</strong>, développée avec
+          <strong>Symfony</strong> et exploitant une base de données
+          <strong>MySQL</strong>.
         </p>
 
         <p>
+          L’application est destinée au réseau <strong>Mediatek86</strong>, un
+          ensemble de médiathèques proposant des ressources et des formations en
+          ligne. Le travail demandé portait sur l’amélioration du code existant,
+          l’ajout de nouvelles fonctionnalités, la mise en place d’un back
+          office sécurisé, la réalisation de tests, la rédaction de
+          documentations et le déploiement de l’application.
+        </p>
+
+        <p>
+          Ce projet m’a permis de mobiliser plusieurs compétences du BTS SIO
+          SLAM, notamment en développement web, structuration du code,
+          utilisation d’une base de données relationnelle, gestion de versions
+          avec Git/GitHub et mise en production.
+        </p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Technologies utilisées</h2>
+        <p>Symfony, PHP, Twig, MySQL, HTML, CSS, Git, GitHub et Railway.</p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Documents du projet</h2>
+        <p>
+          Vous pouvez consulter ou télécharger ci-dessous les principaux
+          documents liés à la réalisation de l’AP1.
+        </p>
+
+        <div class="button-container" style="flex-wrap: wrap; margin-top: 1rem">
           <a
             class="button"
             href="./fiche_AP1_finale.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fiche descriptive PDF
+            Fiche descriptive
+          </a>
+
+          <a
+            class="button"
+            href="./pv_recette_ap1.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PV de recette
+          </a>
+
+          <a
+            class="button"
+            href="./cahier_des_charges_ap1.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cahier des charges
+          </a>
+
+          <a
+            class="button"
+            href="https://mediatekformation-production-0da9.up.railway.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live demo
+          </a>
+
+          <a
+            class="button"
+            href="https://github.com/webgodess/mediatekformation/tree/mods"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code source
+          </a>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Vidéo de présentation</h2>
+        <p>
+          Cliquez sur l’image ci-dessous ou sur le bouton pour accéder à la
+          vidéo de présentation du projet.
+        </p>
+
+        <div style="margin: 1.5rem 0">
+          <a
+            href="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./src/assets/capture_video_ap1.png"
+              alt="Capture de la vidéo de présentation de l'AP1"
+              style="
+                max-width: 100%;
+                height: auto;
+                display: block;
+                border: 1px solid #ad9066;
+              "
+            />
+          </a>
+        </div>
+
+        <p>
+          <a
+            class="button"
+            href="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Voir la vidéo de présentation
           </a>
         </p>
-        <div>
-          <iframe
-            src="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/preview"
-            width="640"
-            height="480"
-            style="border: none; max-width: 100%"
-            allow="autoplay"
-            title="Documentation utilisateur de l'AP1"
-          ></iframe>
-        </div>
       </section>
     </main>
 
