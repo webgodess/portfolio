@@ -29,7 +29,6 @@
     <link rel="manifest" href="./src/assets/site.webmanifest" />
     <title>Page de l'AP1</title>
 
-    <!-- Use index.css if you want the same navbar -->
     <link rel="stylesheet" href="./src/index.css" />
   </head>
 
@@ -95,28 +94,32 @@
       <h1>AP1 – Mediatekformation</h1>
 
       <section>
-        <h2>Documentation de l' AP1</h2>
+        <h2>Documentation de l'AP1</h2>
         <p>
           Vous pouvez télécharger la fiche descriptive et consulter la vidéo de
           présentation du projet ci-dessous.
         </p>
 
-        <a
-          class="button"
-          href="./fiche_AP1_finale.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Fiche descriptive PDF
-        </a>
-        <video width="320" height="240" controls preload="metadata">
-          <source
-            src="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/view"
-            type="video/mp4"
-          />
-
-          Your browser does not support the video tag.
-        </video>
+        <p>
+          <a
+            class="button"
+            href="./fiche_AP1_finale.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fiche descriptive PDF
+          </a>
+        </p>
+        <div>
+          <iframe
+            src="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/preview"
+            width="640"
+            height="480"
+            style="border: none; max-width: 100%"
+            allow="autoplay"
+            title="Documentation utilisateur de l'AP1"
+          ></iframe>
+        </div>
       </section>
     </main>
 
