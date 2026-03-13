@@ -34,6 +34,32 @@
     <title>AP1 – Mediatekformation</title>
 
     <link rel="stylesheet" href="./src/index.css" />
+
+    <style>
+      main {
+        margin-left: 120px;
+        padding: 2rem;
+        max-width: 1000px;
+      }
+
+      .video-wrapper iframe {
+        width: 100%;
+        max-width: 800px;
+        height: 450px;
+        border: none;
+      }
+
+      @media only screen and (max-width: 767px) {
+        main {
+          margin-left: 0;
+          padding: 1.5rem;
+        }
+
+        .video-wrapper iframe {
+          height: 250px;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -170,20 +196,20 @@
 
           <a
             class="button"
+            href="./documentation_technique_ap1.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Documentation technique
+          </a>
+
+          <a
+            class="button"
             href="https://mediatekformation-production-0da9.up.railway.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Live demo
-          </a>
-
-          <a
-            class="button"
-            href="https://github.com/webgodess/mediatekformation/tree/mods"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Code source
           </a>
         </div>
       </section>
@@ -193,8 +219,7 @@
       <section>
         <h2>Vidéo de présentation</h2>
         <p>
-          Cliquez sur l’image ci-dessous ou sur le bouton pour accéder à la
-          vidéo de présentation du projet.
+          Vous pouvez visionner ci-dessous la vidéo de présentation du projet.
         </p>
 
         <div class="video-wrapper">
@@ -205,14 +230,14 @@
           ></iframe>
         </div>
 
-        <p>
+        <p style="margin-top: 1rem">
           <a
             class="button"
             href="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/view"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Voir la vidéo de présentation
+            Ouvrir la vidéo sur Google Drive
           </a>
         </p>
       </section>
