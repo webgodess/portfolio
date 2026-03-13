@@ -13,6 +13,7 @@ body {
 
 h1,
 h2,
+#contactMe,
 #submit,
 label {
   font-family: "Cinzel Decorative", cursive;
@@ -25,6 +26,7 @@ header {
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent),
     url("./assets/DSC_0743try.webp");
+  /* Position and center the image to scale nicely on all screens */
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -44,26 +46,16 @@ header {
   font-size: xx-large;
 }
 
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.hero-btn {
+.heroText button {
   background-color: #ad9066;
   color: #0b1214;
-  padding: 10px 14px;
-  font-size: 1.2rem;
-  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 1.6rem;
   border: none;
   cursor: pointer;
-  display: inline-block;
 }
 
-.hero-btn:hover {
+.heroText button:hover {
   background-color: #0b1214;
   color: #ad9066;
 }
@@ -99,6 +91,7 @@ li a {
   align-items: center;
 }
 
+/* Change the link color on hover */
 li a:hover {
   background-color: #ad9066;
   color: #0b1214;
@@ -122,8 +115,9 @@ i::before {
 #contact {
   margin-left: 120px;
   padding: 30px 40px;
+  /* Remove fixed height */
   min-height: 100vh;
-  overflow: auto;
+  overflow: auto; /* Add overflow to handle content overflow */
 }
 
 #about h2,
@@ -151,7 +145,6 @@ i::before {
 .fa-js-square {
   color: #ffe400;
 }
-
 .fa-css3-alt,
 .fa-react {
   color: #2498e0;
@@ -227,7 +220,7 @@ hr {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
   transition: 0.5s ease;
   opacity: 0;
   width: 100%;
@@ -249,7 +242,7 @@ fieldset {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center the content horizontally */
 }
 
 #submit {
@@ -285,7 +278,6 @@ textarea {
   nav {
     display: none;
   }
-
   .bar {
     width: 35px;
     height: 5px;
@@ -305,7 +297,6 @@ textarea {
     padding-left: 2%;
     padding-top: 1%;
   }
-
   #mobile-ul {
     width: 100%;
     margin-top: 50px;
@@ -314,7 +305,6 @@ textarea {
     transition: opacity 0.4s ease-in-out;
     background-color: #0b1214;
   }
-
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
@@ -343,9 +333,9 @@ textarea {
     font-size: large;
   }
 
-  .heroText h1,
-  .heroText p {
-    margin-left: 0;
+  h1,
+  p {
+    margin-left: 50px;
   }
 
   #about {
@@ -353,8 +343,8 @@ textarea {
     text-align: center;
   }
 
-  .hero-btn {
-    font-size: 1.05rem;
+  .heroText button {
+    font-size: 1.3rem;
   }
 
   .skillsContainer {
@@ -393,11 +383,9 @@ textarea {
     font-size: x-large;
     margin-left: 20px;
   }
-
   fieldset {
     width: 100%;
   }
-
   #submit {
     margin-left: 10px;
   }
