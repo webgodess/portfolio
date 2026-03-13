@@ -27,40 +27,39 @@
       href="./src/assets/favicon-16x16.png"
     />
     <link rel="manifest" href="./src/assets/site.webmanifest" />
-
     <title>Page de l'AP1</title>
 
-    <link rel="stylesheet" href="./src/ap_style.css" />
+    <!-- Use index.css if you want the same navbar -->
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
 
   <body>
     <div>
-      <!-- Desktop navbar -->
       <nav class="navbar">
         <ul>
           <li>
-            <a href="#home"
-              ><i class="fas fa-home xx-large"></i>
+            <a href="./index.html#home">
+              <i class="fas fa-home xx-large"></i>
               <p>HOME</p>
             </a>
           </li>
           <li>
-            <a href="#about"
-              ><i class="fas fa-user xx-large"></i>
-              <p>ABOUT</p></a
-            >
+            <a href="./index.html#about">
+              <i class="fas fa-user xx-large"></i>
+              <p>ABOUT</p>
+            </a>
           </li>
           <li>
-            <a href="#projects"
-              ><i class="fas fa-laptop-code xx-large"></i>
-              <p>PROJECTS</p></a
-            >
+            <a href="./index.html#projects">
+              <i class="fas fa-laptop-code xx-large"></i>
+              <p>PROJECTS</p>
+            </a>
           </li>
           <li>
-            <a href="#contact"
-              ><i class="fas fa-envelope xx-large"></i>
-              <p>CONTACT</p></a
-            >
+            <a href="./index.html#contact">
+              <i class="fas fa-envelope xx-large"></i>
+              <p>CONTACT</p>
+            </a>
           </li>
           <li>
             <a
@@ -75,7 +74,6 @@
         </ul>
       </nav>
 
-      <!-- Mobile navbar -->
       <div id="mobile-nav">
         <a href="#" id="burger-menu-button" aria-label="mobile menu">
           <div class="burger-menu">
@@ -85,31 +83,35 @@
           </div>
         </a>
         <ul class="hidden" id="mobile-ul">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="./index.html#home">HOME</a></li>
+          <li><a href="./index.html#about">ABOUT</a></li>
+          <li><a href="./index.html#projects">PROJECTS</a></li>
+          <li><a href="./index.html#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
-    <h1>AP1 – Mediatekformation</h1>
 
-    <main>
+    <main style="margin-left: 120px; padding: 2rem">
+      <h1>AP1 – Mediatekformation</h1>
+
       <section>
         <h2>Documentation de l'AP1</h2>
         <p>
-          Vous pouvez consulter la documentation de l'AP1 en cliquant sur le
-          bouton ci-dessous :
+          Vous pouvez télécharger la fiche descriptive et consulter la vidéo de
+          présentation du projet ci-dessous.
         </p>
+
         <a
           class="button"
-          href="Ap1.html"
+          href="./fiche_AP1_finale.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          >Documentation</a
         >
+          Fiche descriptive PDF
+        </a>
       </section>
     </main>
+
     <script
       src="https://kit.fontawesome.com/6b1deacb2c.js"
       crossorigin="anonymous"
