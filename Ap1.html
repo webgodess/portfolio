@@ -33,33 +33,7 @@
 
     <title>AP1 – Mediatekformation</title>
 
-    <link rel="stylesheet" href="./src/index.css" />
-
-    <style>
-      main {
-        margin-left: 120px;
-        padding: 2rem;
-        max-width: 1000px;
-      }
-
-      .video-wrapper iframe {
-        width: 100%;
-        max-width: 800px;
-        height: 450px;
-        border: none;
-      }
-
-      @media only screen and (max-width: 767px) {
-        main {
-          margin-left: 0;
-          padding: 1.5rem;
-        }
-
-        .video-wrapper iframe {
-          height: 250px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="./src/ap_style.css" />
   </head>
 
   <body>
@@ -120,10 +94,10 @@
       </div>
     </div>
 
-    <main>
+    <main class="ap-main">
       <h1>AP1 – Mediatekformation</h1>
 
-      <section>
+      <section class="ap-section">
         <h2>Présentation du projet</h2>
         <p>
           Ce projet a été réalisé dans le cadre de l’épreuve AP1 du BTS SIO,
@@ -152,21 +126,21 @@
 
       <hr />
 
-      <section>
+      <section class="ap-section">
         <h2>Technologies utilisées</h2>
         <p>Symfony, PHP, Twig, MySQL, HTML, CSS, Git, GitHub et Railway.</p>
       </section>
 
       <hr />
 
-      <section>
+      <section class="ap-section">
         <h2>Documents du projet</h2>
         <p>
           Vous pouvez consulter ou télécharger ci-dessous les principaux
           documents liés à la réalisation de l’AP1.
         </p>
 
-        <div class="button-container" style="flex-wrap: wrap; margin-top: 1rem">
+        <div class="button-container ap-buttons">
           <a
             class="button"
             href="./fiche_AP1_finale.pdf"
@@ -216,7 +190,7 @@
 
       <hr />
 
-      <section>
+      <section class="ap-section">
         <h2>Vidéo de présentation</h2>
         <p>
           Vous pouvez visionner ci-dessous la vidéo de présentation du projet.
@@ -230,7 +204,7 @@
           ></iframe>
         </div>
 
-        <p style="margin-top: 1rem">
+        <p class="video-link">
           <a
             class="button"
             href="https://drive.google.com/file/d/1vovJLA8H1ifI_iT-AYQidDzQGTaixLJY/view"
