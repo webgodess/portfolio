@@ -15,6 +15,27 @@ h2 {
   font-family: "Cinzel Decorative", cursive;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero-btn {
+  background-color: #ad9066;
+  color: #0b1214;
+  padding: 10px 10px;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #0b1214;
+  color: #ad9066;
+}
+
 nav {
   text-align: center;
 }
