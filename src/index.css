@@ -46,7 +46,13 @@ header {
   font-size: xx-large;
 }
 
-.heroText button {
+.hero-btn {
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.heroText button,
+.hero-btn {
   background-color: #ad9066;
   color: #0b1214;
   padding: 10px 10px;
@@ -55,7 +61,8 @@ header {
   cursor: pointer;
 }
 
-.heroText button:hover {
+.heroText button:hover,
+.hero-btn:hover {
   background-color: #0b1214;
   color: #ad9066;
 }
@@ -345,6 +352,12 @@ textarea {
 
   .heroText button {
     font-size: 1.3rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
   }
 
   .skillsContainer {
