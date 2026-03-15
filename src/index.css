@@ -45,10 +45,16 @@ header {
   color: white;
   font-size: xx-large;
 }
-
+.bold {
+  font-weight: bold;
+}
 .hero-btn {
   text-decoration: none;
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 30px;
 }
 
 .heroText button,
