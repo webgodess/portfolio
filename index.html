@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta
       name="description"
-      content="Sarita Nasimiyu's portfolio website showcasing frontend development projects."
+      content="Portfolio de Sarita Nasimiyu, étudiante en BTS SIO option SLAM. Présentation du parcours, des compétences, des réalisations et de la veille technologique."
     />
     <meta name="author" content="Sarita Nasimiyu" />
     <meta
       name="keywords"
-      content="frontend developer, web development, portfolio"
+      content="portfolio, BTS SIO, SLAM, développement web, Symfony, PHP, C#, SQL"
     />
     <link
       rel="apple-touch-icon"
@@ -31,49 +31,44 @@
     />
     <link rel="manifest" href="./src/assets/site.webmanifest" />
 
-    <title>SN portfolio</title>
+    <title>Portfolio - Sarita Nasimiyu</title>
 
     <link rel="stylesheet" href="./src/index.css" />
   </head>
 
   <body>
-    <!-- Home -->
     <div>
       <!-- Desktop navbar -->
       <nav class="navbar">
         <ul>
           <li>
-            <a href="#home"
-              ><i class="fas fa-home xx-large"></i>
-              <p>HOME</p>
+            <a href="#home">
+              <i class="fas fa-home xx-large"></i>
+              <p>ACCUEIL</p>
             </a>
           </li>
           <li>
-            <a href="#about"
-              ><i class="fas fa-user xx-large"></i>
-              <p>ABOUT</p></a
-            >
+            <a href="#about">
+              <i class="fas fa-user xx-large"></i>
+              <p>PROFIL</p>
+            </a>
           </li>
           <li>
-            <a href="#projects"
-              ><i class="fas fa-laptop-code xx-large"></i>
-              <p>PROJECTS</p></a
-            >
+            <a href="#projects">
+              <i class="fas fa-laptop-code xx-large"></i>
+              <p>RÉALISATIONS</p>
+            </a>
           </li>
           <li>
-            <a href="#contact"
-              ><i class="fas fa-envelope xx-large"></i>
-              <p>CONTACT</p></a
-            >
+            <a href="#veille">
+              <i class="fas fa-rss xx-large"></i>
+              <p>VEILLE</p>
+            </a>
           </li>
           <li>
-            <a
-              href="https://github.com/webgodess?tab=repositories"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-github xx-large"></i>
-              <p>GITHUB</p>
+            <a href="#contact">
+              <i class="fas fa-envelope xx-large"></i>
+              <p>CONTACT</p>
             </a>
           </li>
         </ul>
@@ -81,7 +76,7 @@
 
       <!-- Mobile navbar -->
       <div id="mobile-nav">
-        <a href="#" id="burger-menu-button" aria-label="mobile menu">
+        <a href="#" id="burger-menu-button" aria-label="menu mobile">
           <div class="burger-menu">
             <div class="bar bar1"></div>
             <div class="bar bar2"></div>
@@ -89,22 +84,24 @@
           </div>
         </a>
         <ul class="hidden" id="mobile-ul">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#home">ACCUEIL</a></li>
+          <li><a href="#about">PROFIL</a></li>
+          <li><a href="#projects">RÉALISATIONS</a></li>
+          <li><a href="#veille">VEILLE</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
 
     <header id="home"></header>
+
     <div class="heroText">
       <h1>Sarita Nasimiyu</h1>
-      <p>Étudiante en BTS SIO SLAM</p>
+      <p>Étudiante en BTS SIO option SLAM</p>
 
       <div class="hero-buttons">
         <a class="hero-btn bold" href="./src/assets/bts_cv.pdf" download>
-          <i class="fas fa-file-alt"></i> Mon cv
+          <i class="fas fa-file-alt"></i> Mon CV
         </a>
 
         <a
@@ -112,88 +109,140 @@
           href="https://www.linkedin.com/in/sarita-nr/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="LinkedIn"
         >
           <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          class="hero-btn github-btn"
+          href="https://github.com/webgodess?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
         </a>
       </div>
     </div>
 
     <main>
       <section id="about">
-        <h2>ABOUT</h2>
-        <p>
-          Étudiante en BTS SIO option SLAM, je me forme au développement
-          d’applications, à la programmation, aux bases de données et aux
-          technologies web. Grâce à mes projets réalisés dans le cadre de ma
-          formation et à mon apprentissage autodidacte, j’ai développé de la
-          rigueur, de l’autonomie et une vraie capacité d’adaptation.
-        </p>
-
-        <h3>My skills</h3>
-        <div class="skillsContainer">
-          <i class="fab fa-html5 tooltip" title="HTML5"></i>
-          <i class="fab fa-js-square tooltip" title="JavaScript"></i>
-          <i class="fab fa-css3-alt tooltip" title="CSS3"></i>
-          <i class="fab fa-sass tooltip" title="Sass"></i>
-          <i class="fab fa-react tooltip" title="React.js"></i>
-          <i class="fab fa-git-alt tooltip" title="Git"></i>
-          <i class="fab fa-github tooltip" title="GitHub"></i>
-          <i class="fab fa-wordpress tooltip" title="Wordpress"></i>
-          <i class="fab fa-bootstrap tooltip" title="Bootstrap"></i>
-          <i class="fab fa-php tooltip" title="PHP"></i>
-          <i class="fab fa-symfony tooltip" title="Symfony"></i>
-          <i class="fab fa-python tooltip"></i>
-
-          <img
-            class="csharp tooltip"
-            title="C#"
-            src="./src/assets/csharp.png"
-            alt="C#"
-          />
-          <img
-            class="jquery tooltip"
-            title="jQuery"
-            src="./src/assets/jq.png"
-            alt="jQuery"
-          />
-          <img
-            class="mysql tooltip"
-            title="MySQL"
-            src="./src/assets/pngwing.com.png"
-            alt="MySQL"
-          />
+        <div>
+          <h2>PROFIL</h2>
+          <p>
+            Étudiante en BTS SIO option SLAM, je me forme au développement
+            d’applications, à la programmation, aux bases de données et aux
+            technologies web. Grâce à mes projets réalisés dans le cadre de ma
+            formation et à mon apprentissage autodidacte, j’ai développé de la
+            rigueur, de l’autonomie et une réelle capacité d’adaptation.
+          </p>
+          <p>
+            Ce portfolio présente mon parcours, mes compétences, mes
+            réalisations professionnelles et ma veille technologique.
+          </p>
         </div>
+
+        <section id="education">
+          <div>
+            <h3 class="skillsHeading">Compétences</h3>
+            <div class="skillsContainer">
+              <i class="fab fa-html5 tooltip" title="HTML5"></i>
+              <i class="fab fa-css3-alt tooltip" title="CSS3"></i>
+              <i class="fab fa-js-square tooltip" title="JavaScript"></i>
+              <i class="fab fa-bootstrap tooltip" title="Bootstrap"></i>
+              <i class="fab fa-php tooltip" title="PHP"></i>
+              <i class="fab fa-symfony tooltip" title="Symfony"></i>
+              <i class="fab fa-git-alt tooltip" title="Git"></i>
+              <i class="fab fa-github tooltip" title="GitHub"></i>
+
+              <img
+                class="csharp tooltip"
+                title="C#"
+                src="./src/assets/csharp.png"
+                alt="C#"
+              />
+              <img
+                class="mysql tooltip"
+                title="MySQL"
+                src="./src/assets/pngwing.com.png"
+                alt="MySQL"
+              />
+              <img
+                class="jquery tooltip"
+                title="jQuery"
+                src="./src/assets/jq.png"
+                alt="jQuery"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div class="parcours">
+              <h3>Mon parcours</h3>
+
+              <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h2>2025</h2>
+                    <h4>CNED</h4>
+                    <p>BTS SIO option SLAM</p>
+                  </div>
+                </div>
+
+                <div class="container right">
+                  <div class="content">
+                    <h2>2019</h2>
+                    <h4>OpenClassrooms</h4>
+                    <p>
+                      Formation de développeur web frontend : HTML, CSS,
+                      JavaScript, React, Git.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="container left">
+                  <div class="content">
+                    <h2>2017</h2>
+                    <h4>Faculté d’économie de Montpellier</h4>
+                    <p>Licence en sciences économiques</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
 
       <hr />
 
       <section id="projects">
-        <h2>PROJECTS</h2>
+        <h2>RÉALISATIONS</h2>
         <div class="card-container">
-          <!-- Project Card 1 -->
+          <!-- Projet principal BTS -->
           <div class="card">
             <img
               src="./src/assets/mediatek.png"
-              alt="AP1 Mediatekformation project"
+              alt="Projet AP1 MediatekFormation"
               class="card-img"
               loading="lazy"
             />
             <div class="overlay">
-              <h3>AP1 - Mediatekformation</h3>
+              <h3>AP1 - MediatekFormation</h3>
+              <p class="project-text">Symfony, PHP, Twig, MySQL</p>
               <div class="button-container">
                 <a
                   class="button"
                   href="https://mediatekformation-production-0da9.up.railway.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Live demo</a
+                  >Démo</a
                 >
                 <a
                   class="button"
                   href="https://github.com/webgodess/mediatekformation/tree/mods"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Source Code</a
+                  >Code source</a
                 >
                 <a
                   class="button"
@@ -206,123 +255,64 @@
             </div>
           </div>
 
-          <!-- Project Card 2 -->
+          <div class="card">
+            <img
+              src="https://raw.githubusercontent.com/webgodess/express_food/main/P4_01_UMLdiagram.png"
+              alt="Diagramme UML Express Food"
+              class="card-img"
+              loading="lazy"
+            />
+            <div class="overlay">
+              <h3>Express Food – Conception UML</h3>
+              <p class="project-text">UML, MySQL</p>
+              <div class="button-container">
+                <a
+                  class="button"
+                  href="https://raw.githubusercontent.com/webgodess/express_food/main/P4_01_UMLdiagram.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Voir l’image</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/webgodess/express_food"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Code source</a
+                >
+              </div>
+            </div>
+          </div>
+
           <div class="card">
             <img
               src="./src/assets/weather_app.webp"
-              alt="weather app"
+              alt="Application météo"
               class="card-img"
               loading="lazy"
             />
             <div class="overlay">
               <h3>Weather App</h3>
+              <p class="project-text">HTML, CSS, JavaScript</p>
               <div class="button-container">
                 <a
                   class="button"
                   href="https://webgodess.github.io/weather-app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Live demo</a
+                  >Démo</a
                 >
                 <a
                   class="button"
                   href="https://github.com/webgodess/weather-app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Source Code</a
+                  >Code source</a
                 >
               </div>
             </div>
           </div>
 
-          <!-- Project Card 3 -->
-          <div class="card">
-            <img
-              src="./src/assets/pomodoroTimer.webp"
-              alt="pomodoro timer"
-              class="card-img"
-              loading="lazy"
-            />
-            <div class="overlay">
-              <h3>Pomodoro Timer</h3>
-              <div class="button-container">
-                <a
-                  class="button"
-                  href="https://webgodess.github.io/pomodoro_timer/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-                <a
-                  class="button"
-                  href="https://github.com/webgodess/pomodoro_timer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 4 -->
-          <div class="card">
-            <img
-              src="./src/assets/lightBright.webp"
-              alt="light bright app"
-              class="card-img"
-              loading="lazy"
-            />
-            <div class="overlay">
-              <h3>Light Bright app</h3>
-              <div class="button-container">
-                <a
-                  class="button"
-                  href="https://webgodess.github.io/light_bright/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-                <a
-                  class="button"
-                  href="https://github.com/webgodess/light_bright"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 5 -->
-          <div class="card">
-            <img
-              src="./src/assets/quote.webp"
-              alt="Neville Goddard quote generator"
-              class="card-img"
-              loading="lazy"
-            />
-            <div class="overlay">
-              <h3>Neville Goddard Quote generator</h3>
-              <div class="button-container">
-                <a
-                  class="button"
-                  href="https://webgodess.github.io/NG_quoteGenerator/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-                <a
-                  class="button"
-                  href="https://github.com/webgodess/NG_quoteGenerator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project Card 6 -->
           <div class="card">
             <img
               src="./src/assets/markdown-previewer.webp"
@@ -332,20 +322,21 @@
             />
             <div class="overlay">
               <h3>Markdown Previewer</h3>
+              <p class="project-text">HTML, CSS, JavaScript, Markdown</p>
               <div class="button-container">
                 <a
                   class="button"
                   href="https://webgodess.github.io/Markdown_Preview/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Live demo</a
+                  >Démo</a
                 >
                 <a
                   class="button"
                   href="https://github.com/webgodess/Markdown_Preview"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >Source Code</a
+                  >Code source</a
                 >
               </div>
             </div>
@@ -355,7 +346,44 @@
 
       <hr />
 
+      <section id="veille">
+        <h2>VEILLE TECHNOLOGIQUE</h2>
+        <div class="veille-content">
+          <p>
+            Dans le cadre de ma formation, je réalise une veille technologique
+            afin de suivre l'évolution des outils, frameworks et bonnes
+            pratiques du développement informatique.
+          </p>
+          <p>
+            Je m'intéresse particulièrement au développement web, Javascript et
+            à la cybersécurité ainsi que le modèle MVC.
+          </p>
+          <p>
+            Pour effectuer cette veille, j'utilise notamment freeCodeCamp,
+            OpenClassrooms,
+            <a
+              href="https://feedly.com/i/my/me"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="veille-lien"
+              >Feedly</a
+            >
+            et
+            <a
+              href="https://medium.com/@nr_sarita"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="veille-lien"
+              >Medium</a
+            >.
+          </p>
+        </div>
+      </section>
+
+      <hr />
+
       <section id="contact">
+        <h2>CONTACT</h2>
         <form
           id="portfolio-frm"
           accept-charset="utf-8"
@@ -364,23 +392,23 @@
           name="contact form"
         >
           <fieldset>
-            <label for="name">Full Name</label>
+            <label for="name">Nom complet</label>
             <input
               type="text"
               id="name"
               name="name"
               required
-              placeholder="First and Last"
+              placeholder="Prénom et nom"
               autocomplete="off"
             />
 
-            <label for="email">Email Address</label>
+            <label for="email">Adresse e-mail</label>
             <input
               type="email"
               id="email"
               name="email"
               required
-              placeholder="email@domain.com"
+              placeholder="email@domaine.com"
               autocomplete="off"
             />
 
@@ -390,16 +418,18 @@
               name="textarea"
               rows="10"
               cols="30"
-              placeholder="Your message..."
+              placeholder="Votre message..."
             ></textarea>
+
             <input
               type="hidden"
               name="_subject"
               id="email-subject"
-              value="Contact Form Submission"
+              value="Contact Portfolio"
             />
           </fieldset>
-          <input type="submit" value="Submit" id="submit" />
+
+          <input type="submit" value="Envoyer" id="submit" />
         </form>
       </section>
     </main>
