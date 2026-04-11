@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2026.3.29.0" projectFile="C:\Users\Eier\Documents\documentation\docMediaTekDocuments.shfbproj" started="04/04/2026 19:15:17">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\Eier\Documents\documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.8&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2026.3.29.0
+Copyright &#169; 2006-2026, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\xampp\htdocs\mediatekdocuments\MediaTekDocuments\bin\Debug\MediaTekDocuments.xml
+Source: C:\xampp\htdocs\mediatekdocuments\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe
+    Found assembly &#39;C:\xampp\htdocs\mediatekdocuments\MediaTekDocuments\bin\Debug\MediaTekDocuments.exe&#39;
+
+Copying XML comments files
+    C:\xampp\htdocs\mediatekdocuments\MediaTekDocuments\bin\Debug\MediaTekDocuments.xml -&gt; C:\Users\Eier\Documents\documentation\Help\Working\MediaTekDocuments.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0130
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-697c8878-8016-44a9-9d41-dd029ba65fc9.proj]
+Build started 04/04/2026 19:15:18.
+
+Project &quot;C:\Users\Eier\Documents\documentation\Help\Working\GenerateRefInfo-697c8878-8016-44a9-9d41-dd029ba65fc9.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.14.40+3e744208875e56e4bf0bc22c40a1c431fb150987)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Wrote information on 6 namespaces, 26 types, and 626 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;C:\Users\Eier\Documents\documentation\Help\Working\GenerateRefInfo-697c8878-8016-44a9-9d41-dd029ba65fc9.proj&quot; (default targets).
+    Last step completed in 00:00:01.2536
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.3446
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.3966
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.3360
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0550
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0750
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00.2300
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Eier\Documents\documentation\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0250
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.controller.FrmMediatekController.GetAbonnements(System.String)] Missing &lt;param name=&quot;idRevues&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.controller.FrmMediatekController.GetAllAbonnements] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.controller.FrmMediatekController.GetAllCommandes] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.ConvertToJson(System.Object,System.Object)] Missing &lt;param name=&quot;nom&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.ConvertToJson(System.Object,System.Object)] Missing &lt;param name=&quot;valeur&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.SupprimerAbonnement(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.SupprimerAbonnement(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.SupprimerCommande(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.SupprimerCommande(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.SupprimerCommandeDocument(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.SupprimerCommandeDocument(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.TraitementRecup``1(System.String,System.String,System.String)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.CanConvert(System.Type)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.ReadJson(Newtonsoft.Json.JsonReader,System.Type,`0,System.Boolean,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.WriteJson(Newtonsoft.Json.JsonWriter,`0,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.CanConvert(System.Type)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.ReadJson(Newtonsoft.Json.JsonReader,System.Type,`0,System.Boolean,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.WriteJson(Newtonsoft.Json.JsonWriter,`0,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Overload:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Overload:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson] Unknown reference link target &#39;M:Newtonsoft.Json.JsonConverter`1.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;reader&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;objectType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;existingValue&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;hasExistingValue&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;serializer&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonReader&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Boolean,System.Boolean,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;writer&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Boolean,Newtonsoft.Json.JsonSerializer)] Missing &lt;param name=&quot;serializer&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Boolean,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonWriter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Boolean,Newtonsoft.Json.JsonSerializer)] Unknown reference link target &#39;T:Newtonsoft.Json.JsonSerializer&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.DateTimeConverterBase&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.Converters.IsoDateTimeConverter.Culture&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.Converters.IsoDateTimeConverter.DateTimeFormat&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.Converters.IsoDateTimeConverter.DateTimeStyles&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;M:Newtonsoft.Json.Converters.DateTimeConverterBase.CanConvert(System.Type)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.DateTimeConverterBase&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;M:Newtonsoft.Json.Converters.IsoDateTimeConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;M:Newtonsoft.Json.Converters.IsoDateTimeConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;M:Newtonsoft.Json.Converters.DateTimeConverterBase.CanConvert(System.Type)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.DateTimeConverterBase&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;M:Newtonsoft.Json.Converters.IsoDateTimeConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;M:Newtonsoft.Json.Converters.IsoDateTimeConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanRead&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.JsonConverter.CanWrite&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.JsonConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.Converters.IsoDateTimeConverter.Culture&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.Converters.IsoDateTimeConverter.DateTimeFormat&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;P:Newtonsoft.Json.Converters.IsoDateTimeConverter.DateTimeStyles&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MediaTekDocuments.dal.Access.CustomDateTimeConverter] Unknown reference link target &#39;T:Newtonsoft.Json.Converters.IsoDateTimeConverter&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.manager.ApiRest.GetInstance(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MediaTekDocuments.manager.ApiRest.RecupDistant(System.String,System.String,System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FormulaireAlerte.abonnementsExpirants] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FormulaireAlerte.FormulaireAlerte_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FormulaireAlerte.FormulaireAlerte_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FormulaireAlerte.FormulaireAlerte_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FormulaireAlerte.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FormulaireAlerte.lesRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FormulaireAlerte.listBxAboEx] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.#ctor(MediaTekDocuments.model.Utilisateur)] Missing &lt;param name=&quot;utilisateur&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.AppliquerDroitsPrets] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgCommandesDvdListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgCommandesLivresListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgCommandesRevuesCombobox] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgCommandesRevuesDatagrid] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgDvdCommandesCombo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgDvdGenresEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgDvdListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgDvdPublicsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgDvdRayonsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgExemplairesListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgLivresCommandesCombo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgLivresGenresEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgLivresListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgLivresPublicsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgLivresRayonsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgRevuesGenresEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgRevuesListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgRevuesPublicsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgRevuesRayonsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.bdgSuivisListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnAjoutDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnAjoutLivre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnAjoutRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnAnnulerDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnAnnulerDvd_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnAnnulerDvd_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnAnnulerLivre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnAnnulerLivre_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnAnnulerLivre_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnAnnulerRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnAnnulerRevue_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnAnnulerRevue_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulGenres_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulGenres_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulPublics_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulPublics_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulRayons_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdAnnulRayons_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnDvdNumRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdNumRecherche_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnDvdNumRecherche_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnEnregistrerDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnEnregistrerDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnEnregistrerDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnEnregistrerLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnEnregistrerLivreCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnEnregistrerLivreCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnEnregistrerRevuesAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnEnregistrerRevuesAbo_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnEnregistrerRevuesAbo_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnLivresAnnulGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresAnnulGenres_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresAnnulGenres_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnlivresAnnulPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresAnnulPublics_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresAnnulPublics_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnLivresAnnulRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresAnnulRayons_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresAnnulRayons_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnLivresNumRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresNumRecherche_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.BtnLivresNumRecherche_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnModifierDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnModifierDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnModifierDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnModifierDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnModifierDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnModifierLivre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnModifierLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnModifierLivresCommandes_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnModifierLivresCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnModifierLivresCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnModifierRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnReceptionExemplaireImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnReceptionExemplaireImage_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnReceptionExemplaireImage_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnReceptionExemplaireValider] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnReceptionExemplaireValider_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnReceptionExemplaireValider_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnReceptionRechercher] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnReceptionRechercher_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnReceptionRechercher_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulGenres_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulGenres_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulPublics_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulPublics_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulRayons_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesAnnulRayons_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnRevuesNumRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesNumRecherche_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnRevuesNumRecherche_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnSupprimerDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnSupprimerDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerDvdCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnSupprimerLivre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnSupprimerLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerLivresCommandes_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerLivresCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerLivresCommandes_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnSupprimerRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnSupprimerRevuesAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerRevuesAbo_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerRevuesAbo_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnSupprimerRevuesAbo_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnValiderDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnValiderDvd_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnValiderDvd_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnValiderLivre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnValiderLivre_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnValiderLivre_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.btnValiderRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnValiderRevue_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.btnValiderRevue_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxDvdGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxDvdGenres_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxDvdGenres_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxDvdGenresEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxDvdPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxDvdPublics_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxDvdPublics_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxDvdPublicsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxDvdRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxDvdRayons_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxDvdRayons_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxDvdRayonsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxEtapeDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxEtapeLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxGenreDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxLivresGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.CbxLivresGenres_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.CbxLivresGenres_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxLivresGenresEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxLivresGenresEditAdd_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxLivresGenresEditAdd_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxLivresGenresEditAdd_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxLivresPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.CbxLivresPublics_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.CbxLivresPublics_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxLivresPublicsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxLivresRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.CbxLivresRayons_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.CbxLivresRayons_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxLivresRayonsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxPublicDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRayonDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRevueGenresEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRevuePublicsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRevueRayonsEditAdd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRevuesGenres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxRevuesGenres_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxRevuesGenres_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRevuesPublics] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxRevuesPublics_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxRevuesPublics_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxRevuesRayons] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxRevuesRayons_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxRevuesRayons_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxTitreDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxTitreDvdCommandes_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxTitreDvdCommandes_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxTitreLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxTitreLivreCommandes_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxTitreLivreCommandes_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.cbxTitreRevuesCommande] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxTitreRevuesCommande_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.cbxTitreRevuesCommande_SelectedIndexChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.chargementCommandesDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.chargementCommandesLivres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.chargementCommandesRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colDate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colDateAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colDateDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colEtapeDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colExemplairesDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colFinAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colMontant] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colMontantAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colMontantDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colNbExemplaires] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.colSuivi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.CONFIRMATION] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.controller] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvDvdListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvDvdListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvDvdListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvDvdListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvDvdListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvExemplairesListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvExemplairesListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvListeDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvListeLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvListeRevuesAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvLivresListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.DgvLivresListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.DgvLivresListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.DgvLivresListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.DgvLivresListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvReceptionExemplairesListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvReceptionExemplairesListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvReceptionExemplairesListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dgvRevuesListe] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvRevuesListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvRevuesListe_ColumnHeaderMouseClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvRevuesListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.dgvRevuesListe_SelectionChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dtpDateCommandeNouvelAboRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dtpDateFinNouvelAboRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dtpNouvelleDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dtpNouvelleLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.dtpReceptionExemplaireDate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.ETATNEUF] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.FrmMediatek_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.FrmMediatek_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.GererDroits] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpDvdInfos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpDvdRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpGestionDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpGestionLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpInfoDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpInfoLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpInfoRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpListeDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpListeLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpListeRevuesAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpLivresInfos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpLivresRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpNouvelAboRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpNouvelleDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpNouvelleLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpReceptionExemplaire] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpReceptionRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpRevuesInfos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.grpRevuesRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label10] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label11] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label12] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label13] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label14] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label15] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label16] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label17] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label18] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label19] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label20] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label21] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label22] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label23] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label24] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label25] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label26] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label27] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label28] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label29] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label30] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label31] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label32] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label33] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label34] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label35] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label36] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label37] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label38] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label39] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label40] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label41] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label42] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label43] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label44] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label45] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label46] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label47] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label48] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label49] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label5] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label50] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label51] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label52] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label53] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label54] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label55] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label56] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label57] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label58] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label59] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label6] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label60] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label61] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label62] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label63] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label64] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label65] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label66] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label67] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label68] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label69] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label7] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label70] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label71] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label72] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label8] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.label9] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelAuteurLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelCollectionLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelDateNouvelleLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelDelaiRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelDureeDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelEtapeLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelGenreDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelGenreLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelGenreRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelIdDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelIdLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelIdRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelImageLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelImageRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelIsbnLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelMontantLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelPeriodiciteRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelPublicDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelPublicLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelPublicRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelQuantiteLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelRayonLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelRayonRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelRealisateurDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelSelectionDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelSelectionLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelSelectionRevueCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelSynopsisDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelTitreLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.labelTitreRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesAbonnements] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesCommandesDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesCommandesLivres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesExemplaires] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesLivres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.lesSuivis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.MSG_ERRCOMMANDE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.MSG_ERREUR] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.MSG_INFO] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.NUM_SUIVI] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.NUMERO_INTROUVABLE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.ParutionDansAbonnement(System.DateTime,System.DateTime,System.DateTime)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.ParutionDansAbonnement(System.DateTime,System.DateTime,System.DateTime)] Missing &lt;param name=&quot;dateCommande&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.ParutionDansAbonnement(System.DateTime,System.DateTime,System.DateTime)] Missing &lt;param name=&quot;dateFinAbonnement&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.ParutionDansAbonnement(System.DateTime,System.DateTime,System.DateTime)] Missing &lt;param name=&quot;dateParution&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbDvdImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbImageDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbImageLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbImageRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbLivresImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbReceptionExemplaireImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbReceptionExemplaireRevueImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbReceptionRevueImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.pcbRevuesImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.RecupererAbonnementsExpirants] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.RemplirRevuesListe(System.Collections.Generic.List{MediaTekDocuments.model.Revue})] Missing &lt;param name=&quot;revues&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.SELECTION_COMMANDE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabCommandesDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabCommandesDvd_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabCommandesDvd_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabCommandesLivres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabCommandesLivres_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabCommandesLivres_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabCommandesRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabCommandesRevues_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabCommandesRevues_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabDvd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabDvd_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabDvd_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabLivres] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.TabLivres_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.TabLivres_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabOngletsApplication] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabReceptionRevue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabReceptionRevue_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabReceptionRevue_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.tabRevues] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabRevues_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.tabRevues_Enter(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.TITRE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdDuree] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdGenre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdNumero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdNumRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdPublic] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdRayon] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdRealisateur] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdSynopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbDvdTitreRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.txbDvdTitreRecherche_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.txbDvdTitreRecherche_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresAuteur] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresCollection] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresGenre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresIsbn] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresNumero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresNumRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresPublic] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresRayon] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbLivresTitreRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.TxbLivresTitreRecherche_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.TxbLivresTitreRecherche_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionExemplaireImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionExemplaireNumero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueDelaiMiseADispo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueGenre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueNumero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueNumero_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueNumero_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevuePeriodicite] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevuePublic] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueRayon] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbReceptionRevueTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesDateMiseADispo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesGenre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesImage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesNumero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesNumRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesPeriodicite] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesPublic] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesRayon] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txbRevuesTitreRecherche] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.txbRevuesTitreRecherche_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.FrmMediatek.txbRevuesTitreRecherche_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtAuteurLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtboxMontantDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtboxMontantLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtboxMontantRevuesAbo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtboxQuantiteDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtboxQuantiteLivresCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtCollectionLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtDelaiRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtDureeDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtGenreLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtGenreRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtIdDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtIdLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtIdRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtIsbnLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtPeriodiciteRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtPublicLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtPublicRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtRayonLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtRayonRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtRealisateurDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtSynopsisDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtTitreDvdCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtTitreLivreCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.txtTitreRevuesCommandes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.FrmMediatek.utilisateurConnecte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.loginPage.btnSubmit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.loginPage.btnSubmit_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.loginPage.btnSubmit_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.loginPage.btnSubmit_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.loginPage.controller] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.loginPage.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.loginPage.label2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.loginPage.loginPage_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.loginPage.loginPage_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTekDocuments.view.loginPage.loginPage_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.loginPage.txtLogin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTekDocuments.view.loginPage.txtPwd] Missing &lt;summary&gt; documentation
+Processed 721 topic(s)
+590 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:12.0424
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.7.1.min.js -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\scripts\jquery-3.7.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\Eier\Documents\documentation\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00.0749
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:01.3072
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 855 files for the website content
+    Last step completed in 00:00:01.3780
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.3930
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 04/04/2026 19:15:36.  Total time: 00:00:18.6770
+
+</buildStep>
+</shfbBuild>
