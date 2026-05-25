@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Présentation du projet Quiz Polyphénols réalisé dans le cadre du stage de BTS SIO option SLAM"
+    />
+    <meta name="author" content="Sarita Nasimiyu" />
+    <meta
+      name="keywords"
+      content="BTS SIO, SLAM, stage, quiz, polyphénols, JavaScript, HTML, CSS, portfolio"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./src/assets/site.webmanifest" />
+
+    <title>Quiz Polyphénols – Projet de stage</title>
+
+    <link rel="stylesheet" href="./src/ap_style.css" />
+  </head>
+
+  <body>
+    <div>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="./index.html#home">
+              <i class="fas fa-home xx-large"></i>
+              <p>HOME</p>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#about">
+              <i class="fas fa-user xx-large"></i>
+              <p>ABOUT</p>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#projects">
+              <i class="fas fa-laptop-code xx-large"></i>
+              <p>PROJECTS</p>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#contact">
+              <i class="fas fa-envelope xx-large"></i>
+              <p>CONTACT</p>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/webgodess?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github xx-large"></i>
+              <p>GITHUB</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="mobile-nav">
+        <a href="#" id="burger-menu-button" aria-label="mobile menu">
+          <div class="burger-menu">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
+        </a>
+        <ul class="hidden" id="mobile-ul">
+          <li><a href="./index.html#home">HOME</a></li>
+          <li><a href="./index.html#about">ABOUT</a></li>
+          <li><a href="./index.html#projects">PROJECTS</a></li>
+          <li><a href="./index.html#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <main class="ap-main">
+      <h1>Quiz Polyphénols – Projet de stage</h1>
+
+      <section class="ap-section">
+        <h2>Présentation du projet</h2>
+
+        <p>
+          Ce projet a été réalisé dans le cadre de mon stage de BTS SIO option
+          SLAM. Il s’agit d’une application web interactive permettant à un
+          utilisateur de répondre à un quiz sur les
+          <strong>polyphénols</strong> et d’obtenir un résultat personnalisé en
+          fonction de ses réponses.
+        </p>
+
+        <p>
+          L’objectif de ce projet était de créer un outil simple, accessible et
+          dynamique autour de la nutrition. Le quiz permet d’évaluer certaines
+          habitudes alimentaires de l’utilisateur, puis d’afficher un score, un
+          niveau de résultat et des recommandations adaptées.
+        </p>
+
+        <p>
+          Cette réalisation m’a permis de mobiliser plusieurs compétences en
+          développement web, notamment la structuration d’une page HTML, la mise
+          en forme avec CSS, la manipulation du DOM avec JavaScript et la
+          gestion d’un questionnaire interactif.
+        </p>
+      </section>
+
+      <hr />
+
+      <section class="ap-section">
+        <h2>Objectifs du projet</h2>
+
+        <ul class="competences-list">
+          <li>
+            Créer une application web simple et intuitive autour des
+            polyphénols.
+          </li>
+          <li>
+            Proposer un questionnaire interactif composé de plusieurs questions.
+          </li>
+          <li>
+            Calculer automatiquement un score selon les réponses sélectionnées.
+          </li>
+          <li>Afficher un résultat personnalisé à la fin du quiz.</li>
+          <li>Donner des recommandations adaptées au profil obtenu.</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section class="ap-section">
+        <h2>Fonctionnalités réalisées</h2>
+
+        <ul class="competences-list">
+          <li>
+            <strong>Écran d’accueil</strong>
+            <ul>
+              <li>Présentation du quiz et de son objectif.</li>
+              <li>Bouton permettant de démarrer le questionnaire.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Questionnaire interactif</strong>
+            <ul>
+              <li>Affichage des questions une par une.</li>
+              <li>Choix de réponses sous forme de boutons.</li>
+              <li>Sélection visuelle de la réponse choisie.</li>
+              <li>Navigation dans le questionnaire.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Barre de progression</strong>
+            <ul>
+              <li>Affichage de l’avancement dans le quiz.</li>
+              <li>Mise à jour dynamique du nombre de questions répondues.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Calcul du score</strong>
+            <ul>
+              <li>Attribution de points selon les réponses sélectionnées.</li>
+              <li>Calcul automatique du score final.</li>
+              <li>Affichage d’un résultat selon le niveau obtenu.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Résultat personnalisé</strong>
+            <ul>
+              <li>Affichage du score de l’utilisateur.</li>
+              <li>Affichage d’un message adapté au résultat.</li>
+              <li>Proposition de recommandations liées aux polyphénols.</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Formulaire d’envoi du résultat</strong>
+            <ul>
+              <li>Présence d’un champ e-mail.</li>
+              <li>Simulation de l’envoi du résultat à l’utilisateur.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section class="ap-section">
+        <h2>Technologies utilisées</h2>
+
+        <ul class="competences-list">
+          <li>
+            <strong>HTML</strong>
+          </li>
+
+          <li>
+            <strong>CSS</strong>
+          </li>
+
+          <li>
+            <strong>JavaScript</strong>
+          </li>
+
+          <li>
+            <strong>GitHub Pages</strong>
+          </li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section class="ap-section">
+        <h2>Compétences mobilisées</h2>
+
+        <h3>
+          Bloc 1 – Support et mise à disposition de services informatiques
+        </h3>
+
+        <ul class="competences-list">
+          <li>
+            <strong>Gérer le patrimoine informatique</strong>
+          </li>
+
+          <li>
+            <strong>Répondre aux incidents et aux demandes d’évolution</strong>
+          </li>
+
+          <li>
+            <strong>Développer la présence en ligne de l’organisation</strong>
+          </li>
+          <li>
+            <strong
+              >Mettre à disposition des utilisateurs un service
+              informatique</strong
+            >
+          </li>
+
+          <li>
+            <strong>Organiser son développement professionnel</strong>
+          </li>
+        </ul>
+
+        <h3>Bloc 2 – Conception et développement d’applications</h3>
+
+        <ul class="competences-list">
+          <li>
+            <strong>Concevoir et développer une solution applicative</strong>
+          </li>
+
+          <li>
+            <strong
+              >Assurer la maintenance corrective ou évolutive d’une solution
+              applicative</strong
+            >
+          </li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section class="ap-section">
+        <h2>Documents du projet</h2>
+
+        <p>
+          Le document principal lié à ce projet est mon rapport de stage. Il
+          présente le contexte du stage, les missions réalisées, les compétences
+          mobilisées et le bilan de cette expérience professionnelle.
+        </p>
+
+        <div class="button-container ap-buttons">
+          <a
+            class="button"
+            href="./src/assets/rapport_de_stage.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            Rapport de stage
+          </a>
+
+          <a
+            class="button"
+            href="https://webgodess.github.io/polyfenoler_quizz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live demo
+          </a>
+
+          <a
+            class="button"
+            href="https://github.com/webgodess/polyfenoler_quizz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dépôt GitHub
+          </a>
+        </div>
+      </section>
+
+      <hr />
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6b1deacb2c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/index.js" defer></script>
+  </body>
+</html>
