@@ -246,8 +246,8 @@ hr {
 }
 
 .card {
-  max-width: 100%;
-  width: 420px;
+  width: 40%;
+  box-sizing: border-box;
   text-align: center;
   margin: 10px auto;
   height: auto;
