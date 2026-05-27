@@ -246,8 +246,8 @@ hr {
 }
 
 .card {
-  width: 40%;
-  box-sizing: border-box;
+  max-width: 100%;
+  width: 420px;
   text-align: center;
   margin: 10px auto;
   height: auto;
@@ -349,16 +349,16 @@ hr {
   text-decoration: none;
   color: #d2d1cf;
 }
-
 .veille-cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin-top: 35px;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .veille-card {
-  flex: 1;
+  flex: 0 1 calc((100% - 25px) / 2);
   min-width: 280px;
   background: rgba(233, 232, 230, 0.04);
   border: 1px solid rgba(173, 144, 102, 0.25);
@@ -368,6 +368,7 @@ hr {
   color: #e9e8e6;
   transition: all 0.3s ease;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  box-sizing: border-box;
 }
 
 .veille-card:hover {
