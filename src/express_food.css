@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Fauna+One&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Fauna One", sans-serif;
+  line-height: 1.5;
+  background-color: #0b1214;
+  width: 100%;
+  color: #e9e8e6;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+nav {
+  text-align: center;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+.navbar > ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 120px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li a {
+  padding: 12px 24px;
+  text-decoration: none;
+  text-align: center;
+  height: 20%;
+  color: #ad9066;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li a:hover {
+  background-color: #ad9066;
+  color: #0b1214;
+}
+
+i {
+  color: #ad9066;
+  text-align: center;
+}
+
+.xx-large {
+  font-size: xx-large;
+}
+
+i::before {
+  content: " ";
+}
+
+.hidden {
+  display: none;
+}
+
+hr {
+  margin: 20px auto;
+  width: 60%;
+  color: #ad9066;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  color: #0b1214;
+  background-color: #ad9066;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.ap-main {
+  margin-left: 120px;
+  padding: 40px 50px;
+  max-width: 1100px;
+  box-sizing: border-box;
+}
+
+.ap-section {
+  margin-bottom: 20px;
+}
+
+.ap-main h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.ap-buttons {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+.video-wrapper {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.video-wrapper iframe {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  height: 480px;
+  border: none;
+}
+
+.video-link {
+  margin-top: 20px;
+}
+
+.screenshots-section {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 30px;
+}
+
+.screenshot-block {
+  padding: 25px;
+}
+
+.screenshot-block h3 {
+  margin-top: 0;
+}
+
+.screenshot-block figure {
+  margin: 20px 0 0;
+}
+
+.screenshot-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid rgba(173, 144, 102, 0.25);
+}
+
+.screenshot-block figcaption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #d2d1cf;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #mobile-nav {
+    display: block;
+    width: 100%;
+    z-index: 2;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .bar {
+    width: 35px;
+    height: 5px;
+    background-color: #ad9066;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    padding-left: 2%;
+    padding-top: 1%;
+  }
+
+  #mobile-ul {
+    width: 100%;
+    margin-top: 50px;
+    opacity: 0.95;
+    height: 50%;
+    transition: opacity 0.4s ease-in-out;
+    background-color: #0b1214;
+  }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+  .ap-main {
+    margin-left: 0;
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+
+  .ap-buttons {
+    justify-content: center;
+  }
+
+  .video-wrapper iframe {
+    height: 240px;
+  }
+}
